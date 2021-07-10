@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Restraunt Menu</title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
+	<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+
+</head>
+<body>
+<div class="box">
+	<div class="lists">
+		<h1 class="heading">Lorem<br>Ipsum</h1>
+			<span class="menu_icon" onclick="myFunction()">&#9776</span>
+		<ul class="list_items" id="click">
+			
+			<li><span style='color:red;text-decoration:line-through'>
+  			<span style='color:#8c8c8c'>About</span></span></li>
+			<li>Services</li>
+			<li>Cuisine</li>
+			<li>Gallery</li>
+			<li>Contact</li>
+			<li>Book</li>
+		</ul>
+		<i class="fa fa-shopping-cart" onclick="myCart()"></i>
+		<button class="cart" id="cart_btn" name="cart">Cart</button>
+	</div>
+	<div class="content">
+		<div class="description">
+			<p class="heading3">Lorem Ipsum dolar sit amet, consectetur adipicising elit, sed do eiusmod tempor insididuent ut labore et.</p>
+			<hr style='width:30%;text-align:left;margin-left:0;border-color: red'>
+		</div>
+		<div class="what_want">
+			<h1 class="heading2">What are you having for Lunce?</h1>
+	</div>
+	<div class="menu">
+		<div class="column">
+			<img src="mexican taco.jpg" alt="mexican taco" class="first">
+		<h3>Mexican Taco</h3>
+		</div>
+		<div class="column">
+			<img src="farmhouse pizza.jpg" alt="farmhouse pizza" class="first">
+		<h3>Farm House</h3>
+		</div>
+		<div class="column">
+			<img src="chicken buger.jpg" alt="Italian Trulli" class="first">
+		<h3>Chicken Burger</h3>
+		</div>
+		<div class="column">
+			<img src="loaded nachos.jpg" alt="Italian Trulli" class="first">
+		<h3>Loaded Nachos</h3>
+		</div>
+		<div class="column">
+			<img src="hakka noodles.jpg" alt="Italian Trulli" class="first">
+		<h3>Hakka Noodles</h3>
+		</div>
+	</div>
+</div>
+</div>
+<script>
+	function myFunction() {
+  	var x = document.getElementById("click");
+  		if (x.style.display == "block") {
+    		x.style.display = "none";
+  			} 
+  			else {
+    		x.style.display = "block";
+  			}
+		}
+		function myCart() {
+  		var y = document.getElementById("cart_btn");
+		}
+</script>
+</body>
+</html>

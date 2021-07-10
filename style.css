@@ -1,0 +1,170 @@
+/*body{
+	margin: 0px;
+	padding: 0px;
+}*/
+.heading{
+	margin-left: 5%;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+}
+.material-icons{
+	visibility: hidden;
+}
+.heading2{
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 5em;
+
+}
+.heading3{
+	font-family: 'Raleway', sans-serif;
+	color: #8c8c8c;
+	line-height: 1.5;
+}
+
+.list_items{
+	width: 10%;
+	height: 90%;
+
+}
+li{
+	list-style-type: none;
+	padding: 20%;
+	color: #8c8c8c;
+}
+.description{
+	width: 15%;
+	position: absolute;
+	right: 9%;
+	top: 15%;
+
+}
+.what_want{
+	position: absolute;
+	left: 25%;
+	top: 5%;
+	width: 55%;
+
+}
+.cart{
+	margin-left: 80px;
+	padding: 15px;
+	background-color: #ff3333;
+	border-radius: 45px;
+	width: 10%;
+	border: 0px none;
+	color: white;
+}
+.column{
+	width: 150px;
+	height: 200px;
+	float: left;
+	border-radius: 20px;
+	margin-right: 40px;
+	box-shadow: 10px 15px 18px #888888;
+}
+
+img.first{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	margin: 25px;
+}
+.menu{
+	display: flex;
+	position: absolute;
+	left: 25%;
+	top: 60%;
+	float: left;
+}
+h3{
+	text-align: center;
+	position: relative;
+	bottom: 20px;
+
+}
+.menu_icon{
+	margin-left:10%;
+	position: absolute;
+	top: 8%; 
+	color: red;
+	font-size: 28px;
+	list-style: pointer;
+	display: none;
+}
+.fa-shopping-cart{
+	font-size: 28px;
+	color: red;
+	display: none;
+}
+.lists a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.lists a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+@media(max-width: 991px)
+{
+	.what_want{
+	position: absolute;
+	left: 28%;
+	top: 30%;
+	width: 70%;
+	}
+
+	.menu{
+	display: flex;
+	position: absolute;
+	left: 15%;
+	top: 50%;
+	display: grid;
+	grid-template-columns: 200px 200px;
+	justify-content: center;
+	}
+	.column{
+	margin: 50px 10PX;
+}
+	.description{
+		position: absolute;
+		left: 100PX;
+		top: 200%;
+		width: 70%;
+		height: 200px;
+
+	}
+	.heading{
+		text-align: center;
+}
+	.heading2{
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 40px;
+	}
+	.cart{
+		visibility: hidden;
+	}
+	.menu_icon{
+		display: block;
+		cursor: pointer;
+	}
+	ul li{
+		display: block;
+	}
+	ul{
+		display: none;
+	}
+	.fa-shopping-cart{
+		position: absolute;
+		right: 10%;
+		top: 9%;
+		display: block;
+		cursor: pointer;
+	}
+
+}
